@@ -1,0 +1,6 @@
+Invoking command in '/home/naitou/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/naitou/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/naitou/ros2_ws/install/person_msgs
+Invoked command in '/home/naitou/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/naitou/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/naitou/ros2_ws/install/person_msgs
+Invoking command in '/home/naitou/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/naitou/ros2_ws/build/person_msgs -- -j16 -l16
+Invoked command in '/home/naitou/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/naitou/ros2_ws/build/person_msgs -- -j16 -l16
+Invoking command in '/home/naitou/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/naitou/ros2_ws/build/person_msgs
+Invoked command in '/home/naitou/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/naitou/ros2_ws/build/person_msgs
