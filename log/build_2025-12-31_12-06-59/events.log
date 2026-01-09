@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.003509] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.003745] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.003965] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.049617] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.099368] (-) TimerEvent: {}
+[0.200167] (-) TimerEvent: {}
+[0.301054] (-) TimerEvent: {}
+[0.401794] (-) TimerEvent: {}
+[0.502492] (-) TimerEvent: {}
+[0.603111] (-) TimerEvent: {}
+[0.693447] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.697520] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.700395] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naitou/ros2_ws/build/person_msgs', '--', '-j16', '-l16'], 'cwd': '/home/naitou/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'naitou'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/naitou/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/naitou'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/naitou/ros2_ws/src/mypkg/mypkg'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naitou/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naitou'), ('NAME', 'Naitousyun'), ('WSL_INTEROP', '/run/WSL/6035_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/naitou/anaconda3/bin:/home/naitou/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/syunm/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/syunm/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/syunm/AppData/Roaming/Programs/Zero Install:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GSETTINGS_SCHEMA_DIR', '/home/naitou/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/naitou/ros2_ws/install/person_msgs:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/naitou/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/naitou/ros2_ws/build/person_msgs'), ('CONDA_EXE', '/home/naitou/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/naitou/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naitou/ros2_ws/install/person_msgs:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.719976] (-) TimerEvent: {}
+[0.820629] (-) TimerEvent: {}
+[0.921301] (-) TimerEvent: {}
+[1.022062] (-) TimerEvent: {}
+[1.065866] (person_msgs) StdoutLine: {'line': b'[  3%] Built target person_msgs__cpp\n'}
+[1.081442] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target person_msgs__rosidl_generator_c\n'}
+[1.122285] (-) TimerEvent: {}
+[1.123729] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_person_msgs\n'}
+[1.171698] (person_msgs) StdoutLine: {'line': b'[ 32%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[1.174158] (person_msgs) StdoutLine: {'line': b'[ 35%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.176823] (person_msgs) StdoutLine: {'line': b'[ 51%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.181706] (person_msgs) StdoutLine: {'line': b'[ 58%] Built target person_msgs__rosidl_typesupport_c\n'}
+[1.182038] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[1.182698] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.222514] (-) TimerEvent: {}
+[1.246164] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs\n'}
+[1.311779] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__py\n'}
+[1.322809] (-) TimerEvent: {}
+[1.401963] (person_msgs) StdoutLine: {'line': b'[ 80%] Built target person_msgs__rosidl_generator_py\n'}
+[1.423025] (-) TimerEvent: {}
+[1.481568] (person_msgs) StdoutLine: {'line': b'[ 87%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.486078] (person_msgs) StdoutLine: {'line': b'[ 93%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.487197] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[1.523279] (-) TimerEvent: {}
+[1.623958] (-) TimerEvent: {}
+[1.724706] (-) TimerEvent: {}
+[1.740795] (person_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.742668] (person_msgs) StdoutLine: {'line': b'writing person_msgs.egg-info/PKG-INFO\n'}
+[1.743695] (person_msgs) StdoutLine: {'line': b'writing dependency_links to person_msgs.egg-info/dependency_links.txt\n'}
+[1.744673] (person_msgs) StdoutLine: {'line': b'writing top-level names to person_msgs.egg-info/top_level.txt\n'}
+[1.751197] (person_msgs) StdoutLine: {'line': b"reading manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[1.753625] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[1.823994] (person_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_person_msgs_egg\n'}
+[1.824886] (-) TimerEvent: {}
+[1.862763] (person_msgs) CommandEnded: {'returncode': 0}
+[1.866691] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[1.899377] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naitou/ros2_ws/build/person_msgs'], 'cwd': '/home/naitou/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'naitou'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/naitou/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/naitou'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/naitou/ros2_ws/src/mypkg/mypkg'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naitou/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naitou'), ('NAME', 'Naitousyun'), ('WSL_INTEROP', '/run/WSL/6035_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/naitou/anaconda3/bin:/home/naitou/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/syunm/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/syunm/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/syunm/AppData/Roaming/Programs/Zero Install:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GSETTINGS_SCHEMA_DIR', '/home/naitou/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/naitou/ros2_ws/install/person_msgs:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/naitou/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/naitou/ros2_ws/build/person_msgs'), ('CONDA_EXE', '/home/naitou/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/naitou/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naitou/ros2_ws/install/person_msgs:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.925168] (-) TimerEvent: {}
+[1.926166] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.927695] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[1.928422] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.929235] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.930819] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.931570] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.h\n'}
+[1.931853] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.h\n'}
+[1.932583] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.h\n'}
+[1.932733] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.c\n'}
+[1.932873] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.h\n'}
+[1.932975] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.933492] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[1.933973] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv\n'}
+[1.936991] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[1.937548] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.938413] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.939346] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.940318] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[1.940616] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.943366] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.944032] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.945164] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.945963] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.946844] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.c\n'}
+[1.947534] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[1.947785] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.949211] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.951002] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[1.951779] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.952808] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.953531] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.954427] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__traits.hpp\n'}
+[1.954823] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.hpp\n'}
+[1.955395] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__builder.hpp\n'}
+[1.955751] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.hpp\n'}
+[1.955948] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.hpp\n'}
+[1.956339] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.957210] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.957450] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.958105] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.959073] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.959257] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/dds_fastrtps\n'}
+[1.960118] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.962381] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.963108] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[1.963557] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[1.964362] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[1.964975] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.cpp\n'}
+[1.965182] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.966661] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.968876] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[1.969466] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[1.970178] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv\n'}
+[1.970394] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info\n'}
+[1.971041] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.971559] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.972483] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.973515] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.974638] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs\n'}
+[1.975060] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.975513] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.976288] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.976810] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py\n'}
+[1.977220] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.977761] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.978330] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.978814] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg\n'}
+[1.979536] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person_s.c\n'}
+[1.979699] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py\n'}
+[1.979810] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py\n'}
+[1.979923] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/libperson_msgs__rosidl_generator_py.so\n'}
+[2.025415] (-) TimerEvent: {}
+[2.064081] (person_msgs) StdoutLine: {'line': b"Listing '/home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs'...\n"}
+[2.064425] (person_msgs) StdoutLine: {'line': b"Listing '/home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg'...\n"}
+[2.077059] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.078990] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.081144] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.083585] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so\n'}
+[2.084481] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[2.084774] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[2.085541] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[2.086407] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[2.086816] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[2.087290] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv\n'}
+[2.087818] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[2.088250] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv\n'}
+[2.088448] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[2.089063] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[2.089686] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[2.090307] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv\n'}
+[2.090565] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.dsv\n'}
+[2.091132] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[2.092748] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport.cmake\n'}
+[2.093005] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.094838] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.095045] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.097081] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.097892] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.099233] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.099978] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.102162] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.104303] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.105094] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.106412] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.106974] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.108398] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.109091] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.112601] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.113196] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.113386] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.114169] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.117686] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.118017] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.118525] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.119401] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.119663] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.124377] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/naitou/ros2_ws/build/mypkg/build', 'install', '--record', '/home/naitou/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/naitou/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'naitou', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/naitou/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/naitou', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/naitou/ros2_ws/src/mypkg/mypkg', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/naitou/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'naitou', 'NAME': 'Naitousyun', 'WSL_INTEROP': '/run/WSL/6035_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/naitou/anaconda3/bin:/home/naitou/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/syunm/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/syunm/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/syunm/AppData/Roaming/Programs/Zero Install:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'QT_XCB_GL_INTEGRATION': 'none', 'GSETTINGS_SCHEMA_DIR': '/home/naitou/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/naitou/ros2_ws/install/person_msgs:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/naitou/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/naitou/ros2_ws/build/mypkg', 'CONDA_EXE': '/home/naitou/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naitou/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/naitou/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/naitou/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/naitou/ros2_ws/install/person_msgs', 'WSLENV': ''}, 'shell': False}
+[2.139016] (-) TimerEvent: {}
+[2.140326] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[2.141504] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[2.142160] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[2.142748] (person_msgs) CommandEnded: {'returncode': 0}
+[2.215705] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[2.239244] (-) TimerEvent: {}
+[2.339833] (-) TimerEvent: {}
+[2.440642] (-) TimerEvent: {}
+[2.541362] (-) TimerEvent: {}
+[2.642027] (-) TimerEvent: {}
+[2.676101] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.677858] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[2.679570] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[2.680661] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[2.681399] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[2.682431] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[2.689815] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.692947] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.693676] (mypkg) StdoutLine: {'line': b'running build\n'}
+[2.693866] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[2.694662] (mypkg) StdoutLine: {'line': b'running install\n'}
+[2.695360] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.699413] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[2.700043] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.704505] (mypkg) StdoutLine: {'line': b"removing '/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.707858] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[2.713848] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.742278] (-) TimerEvent: {}
+[2.758365] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/naitou/ros2_ws/install/mypkg/lib/mypkg\n'}
+[2.758957] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/naitou/ros2_ws/install/mypkg/lib/mypkg\n'}
+[2.759960] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/naitou/ros2_ws/build/mypkg/install.log'\n"}
+[2.807570] (mypkg) CommandEnded: {'returncode': 0}
+[2.828969] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[2.831876] (-) EventReactorShutdown: {}

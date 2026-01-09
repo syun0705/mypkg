@@ -1,0 +1,25 @@
+[2.040s] Invoking command in '/home/naitou/ros2_ws/src/mypkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/naitou/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naitou/ros2_ws/build/mypkg/build install --record /home/naitou/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[2.557s] running egg_info
+[2.559s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[2.560s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[2.561s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[2.562s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[2.562s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[2.568s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.571s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.572s] running build
+[2.572s] running build_py
+[2.573s] copying mypkg/talker.py -> /home/naitou/ros2_ws/build/mypkg/build/lib/mypkg
+[2.575s] running install
+[2.575s] running install_lib
+[2.578s] copying /home/naitou/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[2.583s] byte-compiling /home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[2.586s] running install_data
+[2.586s] running install_egg_info
+[2.590s] removing '/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.591s] Copying ../../build/mypkg/mypkg.egg-info to /home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[2.595s] running install_scripts
+[2.638s] Installing listener script to /home/naitou/ros2_ws/install/mypkg/lib/mypkg
+[2.639s] Installing talker script to /home/naitou/ros2_ws/install/mypkg/lib/mypkg
+[2.640s] writing list of installed files to '/home/naitou/ros2_ws/build/mypkg/install.log'
+[2.691s] Invoked command in '/home/naitou/ros2_ws/src/mypkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/naitou/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naitou/ros2_ws/build/mypkg/build install --record /home/naitou/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data

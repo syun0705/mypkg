@@ -1,17 +1,26 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16
+from std_msgs.msg import Bool
+
+class Listener(Node):
+    def __init__(self):
+        super().__init__("listener")
+        self.create_subscription(Bool, "receive", self.callback, 10)
+
+    def callback(self, msg):
+        if msg.data:
+            self.get_logger().info("ON")
+        else:
+            self.get_logger().info("OFF")
 
 
-rclpy.init()
-node = Node("listener")
+def main():
+    rclpy.init()
+    node = Listener()
+    rclpy.spin(node)
+    rclpy.shutdown()
 
 
-def cd(msg):
-    global node
-    node.get_logger().info("Listen: %d" % msg.data)
+if __name__ == "__main__":
+    main()
 
-
-    def main():
-        pub = node.create_subscription(Int16, "countup", cb, 10)
-        rclpy.spin(node)
