@@ -1,0 +1,204 @@
+[0.565s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.566s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78a622f0f4c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78a6230508e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78a6230508e0>>)
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.226s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/naitou/ros2_ws'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.272s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src': Error(s) in package 'src/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ignore_ament_install'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['colcon_pkg']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['colcon_meta']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['ros']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ros'
+[1.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mypkg' with type 'ros.ament_python' and name 'mypkg'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extension 'ignore'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extension 'ignore_ament_install'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extensions ['colcon_pkg']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extension 'colcon_pkg'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extensions ['colcon_meta']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extension 'colcon_meta'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extensions ['ros']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/person_msgs) by extension 'ros'
+[1.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/person_msgs' with type 'ros.ament_cmake' and name 'person_msgs'
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/naitou/ros2_ws/install
+[1.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_args' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.570s] DEBUG:colcon.colcon_core.verb:Building package 'mypkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naitou/ros2_ws/build/mypkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naitou/ros2_ws/install/mypkg', 'merge_install': False, 'path': '/home/naitou/ros2_ws/src/mypkg', 'symlink_install': False, 'test_result_base': None}
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_target' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'person_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.572s] DEBUG:colcon.colcon_core.verb:Building package 'person_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naitou/ros2_ws/build/person_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naitou/ros2_ws/install/person_msgs', 'merge_install': False, 'path': '/home/naitou/ros2_ws/src/person_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.572s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.575s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/naitou/ros2_ws/src/mypkg' with build type 'ament_python'
+[1.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypkg', 'ament_prefix_path')
+[1.586s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.sh'
+[1.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naitou/ros2_ws/src/person_msgs' with build type 'ament_cmake'
+[1.601s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naitou/ros2_ws/src/person_msgs'
+[1.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.097s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/naitou/ros2_ws/src/mypkg'
+[2.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naitou/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/naitou/ros2_ws/build/person_msgs -- -j16 -l16
+[2.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naitou/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/naitou/ros2_ws/build/person_msgs -- -j16 -l16
+[2.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naitou/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/naitou/ros2_ws/build/person_msgs
+[3.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naitou/ros2_ws/src/mypkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/naitou/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naitou/ros2_ws/build/mypkg/build install --record /home/naitou/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[3.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(person_msgs)
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naitou/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/naitou/ros2_ws/install/mypkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/naitou/ros2_ws/build/person_msgs
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs' for CMake module files
+[3.164s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs' for CMake config files
+[3.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_msgs', 'cmake_prefix_path')
+[3.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.ps1'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.dsv'
+[3.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.sh'
+[3.172s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib'
+[3.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_msgs', 'ld_library_path_lib')
+[3.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.ps1'
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.sh'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/bin'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib/pkgconfig/person_msgs.pc'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib/python3.10/site-packages'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/bin'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.ps1'
+[3.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.dsv'
+[3.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.sh'
+[3.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.bash'
+[3.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.zsh'
+[3.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naitou/ros2_ws/install/person_msgs/share/colcon-core/packages/person_msgs)
+[3.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(person_msgs)
+[3.187s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs' for CMake module files
+[3.189s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs' for CMake config files
+[3.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_msgs', 'cmake_prefix_path')
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.dsv'
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/cmake_prefix_path.sh'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib'
+[3.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('person_msgs', 'ld_library_path_lib')
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.ps1'
+[3.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.dsv'
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/hook/ld_library_path_lib.sh'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/bin'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib/pkgconfig/person_msgs.pc'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/lib/python3.10/site-packages'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/person_msgs/bin'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.ps1'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.dsv'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.sh'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.bash'
+[3.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/person_msgs/share/person_msgs/package.zsh'
+[3.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naitou/ros2_ws/install/person_msgs/share/colcon-core/packages/person_msgs)
+[3.668s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg' for CMake module files
+[3.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naitou/ros2_ws/src/mypkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/naitou/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/naitou/ros2_ws/build/mypkg/build install --record /home/naitou/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[3.671s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg' for CMake config files
+[3.677s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg/lib'
+[3.677s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg/bin'
+[3.677s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg/lib/pkgconfig/mypkg.pc'
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg/lib/python3.10/site-packages'
+[3.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypkg', 'pythonpath')
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.ps1'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.dsv'
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naitou/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.sh'
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/naitou/ros2_ws/install/mypkg/bin'
+[3.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mypkg)
+[3.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/mypkg/share/mypkg/package.ps1'
+[3.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naitou/ros2_ws/install/mypkg/share/mypkg/package.dsv'
+[3.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/mypkg/share/mypkg/package.sh'
+[3.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/mypkg/share/mypkg/package.bash'
+[3.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/naitou/ros2_ws/install/mypkg/share/mypkg/package.zsh'
+[3.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naitou/ros2_ws/install/mypkg/share/colcon-core/packages/mypkg)
+[3.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.689s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.773s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.777s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.777s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naitou/ros2_ws/install/local_setup.ps1'
+[3.779s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naitou/ros2_ws/install/_local_setup_util_ps1.py'
+[3.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naitou/ros2_ws/install/setup.ps1'
+[3.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naitou/ros2_ws/install/local_setup.sh'
+[3.786s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naitou/ros2_ws/install/_local_setup_util_sh.py'
+[3.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naitou/ros2_ws/install/setup.sh'
+[3.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naitou/ros2_ws/install/local_setup.bash'
+[3.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naitou/ros2_ws/install/setup.bash'
+[3.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naitou/ros2_ws/install/local_setup.zsh'
+[3.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naitou/ros2_ws/install/setup.zsh'
